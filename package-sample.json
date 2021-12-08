@@ -1,0 +1,33 @@
+{
+  "name": "lambirou-vscode-php-pack",
+  "displayName": "PHP Workspace Extension Pack",
+  "description": "My Visual Studio Code extension pack for PHP workspace",
+  "version": "1.0.0",
+  "publisher": "lambirou",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lambirou/lambirou-vscode-php-pack"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#0F3D5F",
+    "theme": "dark"
+  },
+  "categories": ["Extension Packs"],
+  "keywords": ["php", "laravel", "blade", "snippet"],
+  "extensionPack": [
+    "onecentlin.laravel-blade",
+    "onecentlin.laravel5-snippets",
+    "ryannaddy.laravel-artisan",
+    "codingyu.laravel-goto-view",
+    "stef-k.laravel-goto-controller",
+    "amiralizadeh9480.laravel-extra-intellisense",
+    "mikestead.dotenv",
+    "EditorConfig.EditorConfig",
+    "felixfbecker.php-debug",
+    "bmewburn.vscode-intelephense-client"
+  ]
+}
